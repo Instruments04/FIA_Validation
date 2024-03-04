@@ -3866,13 +3866,13 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(5);
+        stackedWidget->setCurrentIndex(7);
         stackedWidget_8->setCurrentIndex(0);
         tabWidget->setCurrentIndex(1);
         stackedWidget_9->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(0);
-        tabWidget_2->setCurrentIndex(2);
+        stackedWidget_2->setCurrentIndex(3);
+        tabWidget_2->setCurrentIndex(1);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(2);
         stackedWidget_7->setCurrentIndex(2);
@@ -4068,7 +4068,7 @@ public:
         toolButton_11->setText(QApplication::translate("MainWindow", "USER", nullptr));
         toolButton_12->setText(QApplication::translate("MainWindow", "SERVICE", nullptr));
         label_211->setText(QApplication::translate("MainWindow", "Version : RD", nullptr));
-        label_340->setText(QApplication::translate("MainWindow", "1.0", nullptr));
+        label_340->setText(QString());
         pushButton_5->setText(QApplication::translate("MainWindow", "Check for Updates", nullptr));
         label_279->setText(QApplication::translate("MainWindow", "Date", nullptr));
         label_429->setText(QApplication::translate("MainWindow", "Time ", nullptr));
