@@ -3851,7 +3851,7 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(5);
+        stackedWidget->setCurrentIndex(7);
         stackedWidget_8->setCurrentIndex(0);
         tabWidget->setCurrentIndex(0);
         stackedWidget_9->setCurrentIndex(0);
