@@ -2538,11 +2538,11 @@ public:
 "}\n"
 "QCheckBox::indicator:checked\n"
 "{\n"
-"	image:url(\"/home/pi/git/FIA/on-button.png\");\n"
+"	image:url(\"/home/pi/git/FIA_Validation/FIA/on-button.png\");\n"
 "}\n"
 "QCheckBox::indicator:unchecked\n"
 "{\n"
-"	image:url(\"/home/pi/git/FIA/off-button.png\");\n"
+"	image:url(\"/home/pi/git/FIA_Validation/FIA/off-button.png\");\n"
 "}\n"
 ""));
         stackedWidget_7->addWidget(page_30);
@@ -3856,11 +3856,11 @@ public:
         tabWidget->setCurrentIndex(0);
         stackedWidget_9->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(0);
-        tabWidget_2->setCurrentIndex(0);
+        stackedWidget_2->setCurrentIndex(5);
+        tabWidget_2->setCurrentIndex(3);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(2);
-        stackedWidget_7->setCurrentIndex(2);
+        stackedWidget_7->setCurrentIndex(1);
         stackedWidget_6->setCurrentIndex(1);
         tabWidget_3->setCurrentIndex(4);
         stackedWidget_10->setCurrentIndex(1);
@@ -4047,7 +4047,7 @@ public:
         toolButton_11->setText(QApplication::translate("MainWindow", "USER", nullptr));
         toolButton_12->setText(QApplication::translate("MainWindow", "SERVICE", nullptr));
         label_211->setText(QApplication::translate("MainWindow", "Version : RD", nullptr));
-        label_340->setText(QApplication::translate("MainWindow", "1.0.1", nullptr));
+        label_340->setText(QString());
         pushButton_5->setText(QApplication::translate("MainWindow", "Check for Updates", nullptr));
         label_279->setText(QApplication::translate("MainWindow", "Date", nullptr));
         label_429->setText(QApplication::translate("MainWindow", "Time ", nullptr));
