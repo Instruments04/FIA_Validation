@@ -127,10 +127,6 @@ public:
     QPushButton *pushButton_3;
     QLineEdit *lineEdit_4;
     QLineEdit *lineEdit_6;
-    QGroupBox *groupBox_4;
-    QLabel *label_7;
-    QComboBox *comboBox;
-    QComboBox *comboBox_2;
     QPushButton *pushButton_2;
     QPushButton *pushButton_4;
     QLineEdit *lineEdit_13;
@@ -138,6 +134,9 @@ public:
     QPushButton *pushButton_28;
     QLabel *label_55;
     QComboBox *comboBox_4;
+    QLabel *label_18;
+    QLabel *label_7;
+    QComboBox *comboBox;
     QWidget *tab_2;
     QFrame *frame_4;
     QLabel *label_25;
@@ -281,7 +280,6 @@ public:
     QToolButton *toolButton_10;
     QToolButton *toolButton_13;
     QToolButton *toolButton_22;
-    QComboBox *comboBox_8;
     QPushButton *pushButton_138;
     QWidget *page_7;
     QLabel *label_32;
@@ -1055,39 +1053,6 @@ public:
         lineEdit_6->setObjectName(QStringLiteral("lineEdit_6"));
         lineEdit_6->setGeometry(QRect(650, 20, 81, 41));
         lineEdit_6->setFont(font5);
-        groupBox_4 = new QGroupBox(frame_6);
-        groupBox_4->setObjectName(QStringLiteral("groupBox_4"));
-        groupBox_4->setGeometry(QRect(380, 140, 361, 121));
-        groupBox_4->setFont(font1);
-        groupBox_4->setAlignment(Qt::AlignCenter);
-        label_7 = new QLabel(groupBox_4);
-        label_7->setObjectName(QStringLiteral("label_7"));
-        label_7->setGeometry(QRect(10, 40, 101, 41));
-        label_7->setFont(font2);
-        comboBox = new QComboBox(groupBox_4);
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->addItem(QString());
-        comboBox->setObjectName(QStringLiteral("comboBox"));
-        comboBox->setGeometry(QRect(145, 40, 201, 51));
-        QFont font6;
-        font6.setFamily(QStringLiteral("Liberation Sans"));
-        font6.setPointSize(14);
-        comboBox->setFont(font6);
-        comboBox_2 = new QComboBox(frame_6);
-        comboBox_2->addItem(QString());
-        comboBox_2->addItem(QString());
-        comboBox_2->setObjectName(QStringLiteral("comboBox_2"));
-        comboBox_2->setGeometry(QRect(170, 160, 181, 41));
-        comboBox_2->setFont(font6);
         pushButton_2 = new QPushButton(frame_6);
         pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
         pushButton_2->setGeometry(QRect(170, 230, 181, 41));
@@ -1110,14 +1075,42 @@ public:
         pushButton_28->setStyleSheet(QStringLiteral("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))"));
         label_55 = new QLabel(frame_6);
         label_55->setObjectName(QStringLiteral("label_55"));
-        label_55->setGeometry(QRect(380, 80, 121, 41));
+        label_55->setGeometry(QRect(380, 90, 121, 41));
         label_55->setFont(font2);
         comboBox_4 = new QComboBox(frame_6);
         comboBox_4->addItem(QString());
         comboBox_4->addItem(QString());
         comboBox_4->setObjectName(QStringLiteral("comboBox_4"));
-        comboBox_4->setGeometry(QRect(520, 80, 211, 51));
+        comboBox_4->setGeometry(QRect(520, 90, 211, 51));
+        QFont font6;
+        font6.setFamily(QStringLiteral("Liberation Sans"));
+        font6.setPointSize(14);
         comboBox_4->setFont(font6);
+        label_18 = new QLabel(frame_6);
+        label_18->setObjectName(QStringLiteral("label_18"));
+        label_18->setGeometry(QRect(170, 160, 181, 41));
+        label_18->setFont(font2);
+        label_18->setStyleSheet(QStringLiteral("border:1px solid black;"));
+        label_7 = new QLabel(frame_6);
+        label_7->setObjectName(QStringLiteral("label_7"));
+        label_7->setGeometry(QRect(385, 160, 101, 41));
+        label_7->setFont(font2);
+        label_7->setStyleSheet(QStringLiteral("border:none;"));
+        comboBox = new QComboBox(frame_6);
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->setObjectName(QStringLiteral("comboBox"));
+        comboBox->setGeometry(QRect(520, 160, 211, 51));
+        comboBox->setFont(font6);
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QStringLiteral("tab_2"));
@@ -1852,13 +1845,13 @@ public:
         stackedWidget_5->addWidget(page_23);
         toolButton_10 = new QToolButton(page_6);
         toolButton_10->setObjectName(QStringLiteral("toolButton_10"));
-        toolButton_10->setGeometry(QRect(40, 20, 151, 51));
+        toolButton_10->setGeometry(QRect(130, 20, 151, 51));
         toolButton_10->setFont(font2);
         toolButton_10->setStyleSheet(QLatin1String("border:2px solid black;\n"
 "border-radius:15px;"));
         toolButton_13 = new QToolButton(page_6);
         toolButton_13->setObjectName(QStringLiteral("toolButton_13"));
-        toolButton_13->setGeometry(QRect(210, 20, 151, 51));
+        toolButton_13->setGeometry(QRect(310, 20, 151, 51));
         toolButton_13->setFont(font2);
         toolButton_13->setStyleSheet(QLatin1String("border:2px solid black;\n"
 "border-radius:15px;"));
@@ -1871,18 +1864,9 @@ public:
         toolButton_22->setIcon(icon);
         toolButton_22->setIconSize(QSize(35, 35));
         toolButton_22->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
-        comboBox_8 = new QComboBox(page_6);
-        comboBox_8->addItem(QString());
-        comboBox_8->addItem(QString());
-        comboBox_8->setObjectName(QStringLiteral("comboBox_8"));
-        comboBox_8->setGeometry(QRect(560, 22, 151, 41));
-        comboBox_8->setFont(font4);
-        comboBox_8->setStyleSheet(QLatin1String("border:2px solid black;\n"
-"border-radius:5px;\n"
-""));
         pushButton_138 = new QPushButton(page_6);
         pushButton_138->setObjectName(QStringLiteral("pushButton_138"));
-        pushButton_138->setGeometry(QRect(390, 23, 141, 41));
+        pushButton_138->setGeometry(QRect(490, 20, 151, 51));
         pushButton_138->setFont(font7);
         pushButton_138->setStyleSheet(QLatin1String("border:2px solid black;\n"
 "border-radius:15px;"));
@@ -2469,11 +2453,11 @@ public:
         tab_5->setObjectName(QStringLiteral("tab_5"));
         pushButton_36 = new QPushButton(tab_5);
         pushButton_36->setObjectName(QStringLiteral("pushButton_36"));
-        pushButton_36->setGeometry(QRect(130, 120, 211, 51));
+        pushButton_36->setGeometry(QRect(150, 120, 211, 51));
         pushButton_36->setFont(font1);
         pushButton_74 = new QPushButton(tab_5);
         pushButton_74->setObjectName(QStringLiteral("pushButton_74"));
-        pushButton_74->setGeometry(QRect(380, 120, 211, 51));
+        pushButton_74->setGeometry(QRect(400, 120, 211, 51));
         pushButton_74->setFont(font1);
         tabWidget_2->addTab(tab_5, QString());
         tab_6 = new QWidget();
@@ -2816,7 +2800,7 @@ public:
         page_40->setObjectName(QStringLiteral("page_40"));
         calendarWidget = new QCalendarWidget(page_40);
         calendarWidget->setObjectName(QStringLiteral("calendarWidget"));
-        calendarWidget->setGeometry(QRect(120, 40, 411, 281));
+        calendarWidget->setGeometry(QRect(130, 40, 411, 281));
         calendarWidget->setFont(font2);
         calendarWidget->setStyleSheet(QLatin1String("/* Style for header area #######################*/\n"
 "#calendarWidget QWidget\n"
@@ -3046,7 +3030,7 @@ public:
         calendarWidget->setHorizontalHeaderFormat(QCalendarWidget::SingleLetterDayNames);
         toolButton_27 = new QToolButton(page_40);
         toolButton_27->setObjectName(QStringLiteral("toolButton_27"));
-        toolButton_27->setGeometry(QRect(560, 180, 101, 41));
+        toolButton_27->setGeometry(QRect(570, 170, 101, 41));
         toolButton_27->setFont(font3);
         toolButton_27->setStyleSheet(QLatin1String("QToolButton\n"
 "{\n"
@@ -3078,6 +3062,7 @@ public:
         label_59->setObjectName(QStringLiteral("label_59"));
         label_59->setGeometry(QRect(270, 10, 171, 41));
         label_59->setFont(font1);
+        label_59->setAlignment(Qt::AlignCenter);
         frame_21 = new QFrame(tab_9);
         frame_21->setObjectName(QStringLiteral("frame_21"));
         frame_21->setGeometry(QRect(130, 50, 451, 271));
@@ -3085,7 +3070,7 @@ public:
         frame_21->setFrameShadow(QFrame::Raised);
         frame_33 = new QFrame(frame_21);
         frame_33->setObjectName(QStringLiteral("frame_33"));
-        frame_33->setGeometry(QRect(30, 40, 171, 151));
+        frame_33->setGeometry(QRect(20, 40, 61, 151));
         frame_33->setFrameShape(QFrame::StyledPanel);
         frame_33->setFrameShadow(QFrame::Raised);
         label_56 = new QLabel(frame_33);
@@ -3106,7 +3091,7 @@ public:
         pushButton_30->setFont(font2);
         frame_34 = new QFrame(frame_21);
         frame_34->setObjectName(QStringLiteral("frame_34"));
-        frame_34->setGeometry(QRect(250, 40, 171, 151));
+        frame_34->setGeometry(QRect(140, 30, 171, 151));
         frame_34->setFrameShape(QFrame::StyledPanel);
         frame_34->setFrameShadow(QFrame::Raised);
         label_58 = new QLabel(frame_34);
@@ -3266,7 +3251,7 @@ public:
         tab_14->setObjectName(QStringLiteral("tab_14"));
         frame_32 = new QFrame(tab_14);
         frame_32->setObjectName(QStringLiteral("frame_32"));
-        frame_32->setGeometry(QRect(10, 20, 331, 301));
+        frame_32->setGeometry(QRect(10, 20, 171, 301));
         frame_32->setFrameShape(QFrame::StyledPanel);
         frame_32->setFrameShadow(QFrame::Raised);
         label_60 = new QLabel(frame_32);
@@ -3334,7 +3319,7 @@ public:
         pushButton_41->setStyleSheet(QStringLiteral(""));
         frame_40 = new QFrame(tab_14);
         frame_40->setObjectName(QStringLiteral("frame_40"));
-        frame_40->setGeometry(QRect(380, 20, 351, 301));
+        frame_40->setGeometry(QRect(198, 10, 351, 311));
         frame_40->setFrameShape(QFrame::StyledPanel);
         frame_40->setFrameShadow(QFrame::Raised);
         label_107 = new QLabel(frame_40);
@@ -3405,7 +3390,7 @@ public:
         tab_12->setObjectName(QStringLiteral("tab_12"));
         frame_35 = new QFrame(tab_12);
         frame_35->setObjectName(QStringLiteral("frame_35"));
-        frame_35->setGeometry(QRect(20, 10, 341, 301));
+        frame_35->setGeometry(QRect(20, 10, 141, 301));
         frame_35->setFrameShape(QFrame::StyledPanel);
         frame_35->setFrameShadow(QFrame::Raised);
         label_65 = new QLabel(frame_35);
@@ -3449,7 +3434,7 @@ public:
         pushButton_133->setFont(font1);
         frame_41 = new QFrame(tab_12);
         frame_41->setObjectName(QStringLiteral("frame_41"));
-        frame_41->setGeometry(QRect(390, 10, 341, 301));
+        frame_41->setGeometry(QRect(203, 10, 341, 301));
         frame_41->setFrameShape(QFrame::StyledPanel);
         frame_41->setFrameShadow(QFrame::Raised);
         label_120 = new QLabel(frame_41);
@@ -3866,18 +3851,18 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(7);
+        stackedWidget->setCurrentIndex(5);
         stackedWidget_8->setCurrentIndex(0);
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(0);
         stackedWidget_9->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(3);
-        tabWidget_2->setCurrentIndex(1);
+        stackedWidget_2->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(0);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(2);
         stackedWidget_7->setCurrentIndex(2);
         stackedWidget_6->setCurrentIndex(1);
-        tabWidget_3->setCurrentIndex(1);
+        tabWidget_3->setCurrentIndex(4);
         stackedWidget_10->setCurrentIndex(1);
 
 
@@ -3944,7 +3929,15 @@ public:
         label_4->setText(QApplication::translate("MainWindow", "LED Type", nullptr));
         pushButton->setText(QString());
         pushButton_3->setText(QString());
-        groupBox_4->setTitle(QApplication::translate("MainWindow", "Graph options", nullptr));
+        pushButton_2->setText(QString());
+        pushButton_4->setText(QString());
+        label_16->setText(QApplication::translate("MainWindow", "Test Code", nullptr));
+        pushButton_28->setText(QString());
+        label_55->setText(QApplication::translate("MainWindow", "Reaction Type", nullptr));
+        comboBox_4->setItemText(0, QApplication::translate("MainWindow", "Increasing", nullptr));
+        comboBox_4->setItemText(1, QApplication::translate("MainWindow", "Decreasing", nullptr));
+
+        label_18->setText(QApplication::translate("MainWindow", "Green", nullptr));
         label_7->setText(QApplication::translate("MainWindow", "Graph Type", nullptr));
         comboBox->setItemText(0, QApplication::translate("MainWindow", "linear", nullptr));
         comboBox->setItemText(1, QApplication::translate("MainWindow", "linear-log", nullptr));
@@ -3957,17 +3950,6 @@ public:
         comboBox->setItemText(8, QApplication::translate("MainWindow", "5pl", nullptr));
         comboBox->setItemText(9, QString());
         comboBox->setItemText(10, QString());
-
-        comboBox_2->setItemText(0, QApplication::translate("MainWindow", "Red", nullptr));
-        comboBox_2->setItemText(1, QApplication::translate("MainWindow", "Green", nullptr));
-
-        pushButton_2->setText(QString());
-        pushButton_4->setText(QString());
-        label_16->setText(QApplication::translate("MainWindow", "Test Code", nullptr));
-        pushButton_28->setText(QString());
-        label_55->setText(QApplication::translate("MainWindow", "Reaction Type", nullptr));
-        comboBox_4->setItemText(0, QApplication::translate("MainWindow", "Increasing", nullptr));
-        comboBox_4->setItemText(1, QApplication::translate("MainWindow", "Decreasing", nullptr));
 
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("MainWindow", "Info", nullptr));
         label_25->setText(QApplication::translate("MainWindow", "No.of Std / Cal", nullptr));
@@ -4060,15 +4042,12 @@ public:
         toolButton_10->setText(QApplication::translate("MainWindow", "Graph", nullptr));
         toolButton_13->setText(QApplication::translate("MainWindow", "Calibration", nullptr));
         toolButton_22->setText(QApplication::translate("MainWindow", "Back", nullptr));
-        comboBox_8->setItemText(0, QApplication::translate("MainWindow", "Red", nullptr));
-        comboBox_8->setItemText(1, QApplication::translate("MainWindow", "Green", nullptr));
-
         pushButton_138->setText(QApplication::translate("MainWindow", "Settings", nullptr));
         label_32->setText(QApplication::translate("MainWindow", "Settings", nullptr));
         toolButton_11->setText(QApplication::translate("MainWindow", "USER", nullptr));
         toolButton_12->setText(QApplication::translate("MainWindow", "SERVICE", nullptr));
         label_211->setText(QApplication::translate("MainWindow", "Version : RD", nullptr));
-        label_340->setText(QString());
+        label_340->setText(QApplication::translate("MainWindow", "1.0.1", nullptr));
         pushButton_5->setText(QApplication::translate("MainWindow", "Check for Updates", nullptr));
         label_279->setText(QApplication::translate("MainWindow", "Date", nullptr));
         label_429->setText(QApplication::translate("MainWindow", "Time ", nullptr));
