@@ -431,12 +431,19 @@ qrc_icons.cpp: ../FIA_Validation/FIA/icons.qrc \
 		../FIA_Validation/FIA/less-than.png \
 		../FIA_Validation/FIA/account.png \
 		../FIA_Validation/FIA/services.png \
+		../FIA_Validation/FIA/test-tube.png \
 		../FIA_Validation/FIA/rss.png \
 		../FIA_Validation/FIA/down-arrow.png \
+		../FIA_Validation/FIA/document.png \
 		../FIA_Validation/FIA/on-button.png \
+		../FIA_Validation/FIA/settings.png \
 		../FIA_Validation/FIA/previous.png \
 		../FIA_Validation/FIA/arrow-up.png \
+		../FIA_Validation/FIA/delline.png \
 		../FIA_Validation/FIA/time.png \
+		../FIA_Validation/FIA/bar-chart.png \
+		../FIA_Validation/FIA/power-on.png \
+		../FIA_Validation/FIA/data.png \
 		../FIA_Validation/FIA/eye.png \
 		../FIA_Validation/FIA/off-button.png \
 		../FIA_Validation/FIA/wifi.png \
