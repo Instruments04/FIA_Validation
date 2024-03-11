@@ -914,7 +914,7 @@ public:
 
         retranslateUi(keyboard);
 
-        stackedWidget_8->setCurrentIndex(1);
+        stackedWidget_8->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(keyboard);

@@ -838,7 +838,7 @@ public:
         pushButton_6->setIconSize(QSize(45, 45));
         label_180 = new QLabel(page);
         label_180->setObjectName(QStringLiteral("label_180"));
-        label_180->setGeometry(QRect(0, 430, 71, 17));
+        label_180->setGeometry(QRect(0, 420, 71, 17));
         QFont font2;
         font2.setFamily(QStringLiteral("Liberation Sans"));
         font2.setBold(true);
@@ -1355,19 +1355,10 @@ public:
         font7.setFamily(QStringLiteral("Liberation Sans"));
         font7.setPointSize(14);
         comboBox_4->setFont(font7);
-        comboBox_4->setStyleSheet(QLatin1String("QComboBox {\n"
+        comboBox_4->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+"border:3px solid gray;\n"
+"color:white;"));
         label_18 = new QLabel(frame_6);
         label_18->setObjectName(QStringLiteral("label_18"));
         label_18->setGeometry(QRect(170, 160, 181, 41));
@@ -1393,19 +1384,10 @@ public:
         comboBox->setObjectName(QStringLiteral("comboBox"));
         comboBox->setGeometry(QRect(520, 160, 211, 51));
         comboBox->setFont(font7);
-        comboBox->setStyleSheet(QLatin1String("QComboBox {\n"
+        comboBox->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+"border:3px solid gray;\n"
+"color:white;"));
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QStringLiteral("tab_2"));
@@ -2309,7 +2291,7 @@ public:
         frame_87->setFrameShadow(QFrame::Raised);
         label_53 = new QLabel(frame_87);
         label_53->setObjectName(QStringLiteral("label_53"));
-        label_53->setGeometry(QRect(187, 10, 111, 31));
+        label_53->setGeometry(QRect(200, 0, 111, 51));
         label_53->setFont(font4);
         label_53->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         pushButton_70 = new QPushButton(frame_87);
@@ -2381,19 +2363,9 @@ public:
         timeZoneComboBox_2->setFont(font15);
         timeZoneComboBox_2->setTabletTracking(false);
         timeZoneComboBox_2->setFocusPolicy(Qt::WheelFocus);
-        timeZoneComboBox_2->setStyleSheet(QLatin1String("QComboBox {\n"
-"background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+        timeZoneComboBox_2->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
+"border:3px solid gray;\n"
+"color:white;"));
         stackedWidget_3->addWidget(page_16);
         page_17 = new QWidget();
         page_17->setObjectName(QStringLiteral("page_17"));
@@ -2464,19 +2436,10 @@ public:
         comboBox_13->setObjectName(QStringLiteral("comboBox_13"));
         comboBox_13->setGeometry(QRect(200, 10, 221, 41));
         comboBox_13->setFont(font3);
-        comboBox_13->setStyleSheet(QLatin1String("QComboBox {\n"
+        comboBox_13->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+"border:3px solid gray;\n"
+"color:white;"));
         pushButton_247 = new QPushButton(frame_88);
         pushButton_247->setObjectName(QStringLiteral("pushButton_247"));
         pushButton_247->setGeometry(QRect(30, 210, 181, 41));
@@ -2507,19 +2470,10 @@ public:
         comboBox_14->setObjectName(QStringLiteral("comboBox_14"));
         comboBox_14->setGeometry(QRect(200, 70, 221, 41));
         comboBox_14->setFont(font3);
-        comboBox_14->setStyleSheet(QLatin1String("QComboBox {\n"
+        comboBox_14->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+"border:3px solid gray;\n"
+"color:white;"));
         label_354 = new QLabel(frame_88);
         label_354->setObjectName(QStringLiteral("label_354"));
         label_354->setGeometry(QRect(30, 130, 111, 41));
@@ -2530,19 +2484,10 @@ public:
         comboBox_15->setObjectName(QStringLiteral("comboBox_15"));
         comboBox_15->setGeometry(QRect(200, 130, 221, 41));
         comboBox_15->setFont(font3);
-        comboBox_15->setStyleSheet(QLatin1String("QComboBox {\n"
+        comboBox_15->setStyleSheet(QLatin1String("\n"
 "background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+"border:3px solid gray;\n"
+"color:white;"));
         stackedWidget_4->addWidget(page_20);
         page_81 = new QWidget();
         page_81->setObjectName(QStringLiteral("page_81"));
@@ -2779,7 +2724,9 @@ public:
         comboBox_7->setObjectName(QStringLiteral("comboBox_7"));
         comboBox_7->setGeometry(QRect(210, 80, 321, 41));
         comboBox_7->setFont(font5);
-        comboBox_7->setStyleSheet(QStringLiteral(""));
+        comboBox_7->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
+"border:3px solid gray;\n"
+"color:white;"));
         lineEdit_38 = new QLineEdit(frame_29);
         lineEdit_38->setObjectName(QStringLiteral("lineEdit_38"));
         lineEdit_38->setGeometry(QRect(220, 150, 241, 41));
@@ -2787,7 +2734,6 @@ public:
         lineEdit_38->setStyleSheet(QStringLiteral(""));
         lineEdit_38->setEchoMode(QLineEdit::Password);
         lineEdit_38->setReadOnly(false);
-        lineEdit_38->setCursorMoveStyle(Qt::LogicalMoveStyle);
         pushButton_92 = new QPushButton(frame_29);
         pushButton_92->setObjectName(QStringLiteral("pushButton_92"));
         pushButton_92->setGeometry(QRect(260, 230, 151, 51));
@@ -2960,19 +2906,9 @@ public:
         comboBox_6 = new QComboBox(frame_27);
         comboBox_6->setObjectName(QStringLiteral("comboBox_6"));
         comboBox_6->setGeometry(QRect(190, 10, 241, 31));
-        comboBox_6->setStyleSheet(QLatin1String("QComboBox {\n"
-"background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
+        comboBox_6->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
+"border:3px solid gray;\n"
+"color:white;\n"
 ""));
         label_77 = new QLabel(frame_27);
         label_77->setObjectName(QStringLiteral("label_77"));
@@ -3895,19 +3831,9 @@ public:
         comboBox_3->setObjectName(QStringLiteral("comboBox_3"));
         comboBox_3->setGeometry(QRect(490, 90, 151, 51));
         comboBox_3->setFont(font4);
-        comboBox_3->setStyleSheet(QLatin1String("QComboBox {\n"
-"background-color: rgb(43, 124, 203);\n"
-"border: 3px solid gray;\n"
-" color: white;\n"
-"}\n"
-"QComboBox QAbstractItemView {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}\n"
-"QComboBox::item {\n"
-"background-color: rgb(43, 124, 203);\n"
-"color: white;\n"
-"}"));
+        comboBox_3->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
+"border:3px solid gray;\n"
+"color:white;"));
         toolButton_25 = new QToolButton(page_9);
         toolButton_25->setObjectName(QStringLiteral("toolButton_25"));
         toolButton_25->setGeometry(QRect(660, 90, 131, 51));
@@ -4602,7 +4528,7 @@ public:
         tableView_3->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         label_172 = new QLabel(page_48);
         label_172->setObjectName(QStringLiteral("label_172"));
-        label_172->setGeometry(QRect(0, 90, 241, 31));
+        label_172->setGeometry(QRect(0, 90, 251, 31));
         label_172->setFont(font5);
         label_172->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         label_172->setAlignment(Qt::AlignCenter);
@@ -4839,7 +4765,9 @@ public:
         comboBox_5->setObjectName(QStringLiteral("comboBox_5"));
         comboBox_5->setGeometry(QRect(120, 280, 221, 41));
         comboBox_5->setFont(font5);
-        comboBox_5->setStyleSheet(QStringLiteral(""));
+        comboBox_5->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
+"border:3px solid gray;\n"
+"color:white;"));
         frame_45 = new QFrame(frame_44);
         frame_45->setObjectName(QStringLiteral("frame_45"));
         frame_45->setGeometry(QRect(390, 50, 311, 171));
@@ -5002,21 +4930,21 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(7);
-        stackedWidget_8->setCurrentIndex(1);
-        tabWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(5);
+        stackedWidget_8->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(0);
         stackedWidget_9->setCurrentIndex(0);
         stackedWidget_5->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(1);
-        tabWidget_2->setCurrentIndex(3);
-        stackedWidget_3->setCurrentIndex(0);
-        stackedWidget_4->setCurrentIndex(1);
+        tabWidget_2->setCurrentIndex(5);
+        stackedWidget_3->setCurrentIndex(1);
+        stackedWidget_4->setCurrentIndex(2);
         stackedWidget_7->setCurrentIndex(2);
         stackedWidget_6->setCurrentIndex(1);
-        tabWidget_3->setCurrentIndex(1);
-        stackedWidget_10->setCurrentIndex(0);
-        stackedWidget_12->setCurrentIndex(2);
-        stackedWidget_11->setCurrentIndex(0);
+        tabWidget_3->setCurrentIndex(2);
+        stackedWidget_10->setCurrentIndex(1);
+        stackedWidget_12->setCurrentIndex(0);
+        stackedWidget_11->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
