@@ -669,6 +669,11 @@ public:
     QLineEdit *export_name;
     QPushButton *pushButton_139;
     QToolButton *toolButton_54;
+    QFrame *frame_72;
+    QRadioButton *radioButton_13;
+    QRadioButton *radioButton_14;
+    QLabel *label_208;
+    QRadioButton *radioButton_15;
     QWidget *page_21;
     QFrame *frame_42;
     QLabel *label_128;
@@ -4672,12 +4677,12 @@ public:
         frame_71->setFrameShadow(QFrame::Raised);
         export_name = new QLineEdit(frame_71);
         export_name->setObjectName(QStringLiteral("export_name"));
-        export_name->setGeometry(QRect(20, 10, 181, 41));
+        export_name->setGeometry(QRect(15, 10, 181, 41));
         export_name->setFont(font16);
         export_name->setStyleSheet(QStringLiteral(""));
         pushButton_139 = new QPushButton(frame_71);
         pushButton_139->setObjectName(QStringLiteral("pushButton_139"));
-        pushButton_139->setGeometry(QRect(20, 10, 181, 41));
+        pushButton_139->setGeometry(QRect(15, 10, 181, 41));
         pushButton_139->setStyleSheet(QLatin1String("background:qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(0, 0, 0, 0), stop:1 rgba(0,0,0,0))\n"
 ""));
         toolButton_54 = new QToolButton(page_48);
@@ -4687,6 +4692,32 @@ public:
         toolButton_54->setStyleSheet(QLatin1String("background-color: rgb(43, 124, 203);\n"
 "border:3px solid gray;\n"
 "color:white;"));
+        frame_72 = new QFrame(page_48);
+        frame_72->setObjectName(QStringLiteral("frame_72"));
+        frame_72->setGeometry(QRect(20, 70, 211, 171));
+        frame_72->setFrameShape(QFrame::StyledPanel);
+        frame_72->setFrameShadow(QFrame::Raised);
+        radioButton_13 = new QRadioButton(frame_72);
+        radioButton_13->setObjectName(QStringLiteral("radioButton_13"));
+        radioButton_13->setGeometry(QRect(10, 50, 191, 31));
+        radioButton_13->setFont(font4);
+        radioButton_13->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        radioButton_14 = new QRadioButton(frame_72);
+        radioButton_14->setObjectName(QStringLiteral("radioButton_14"));
+        radioButton_14->setGeometry(QRect(10, 80, 191, 41));
+        radioButton_14->setFont(font4);
+        radioButton_14->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        label_208 = new QLabel(frame_72);
+        label_208->setObjectName(QStringLiteral("label_208"));
+        label_208->setGeometry(QRect(40, 20, 131, 21));
+        label_208->setFont(font4);
+        label_208->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
+        label_208->setAlignment(Qt::AlignCenter);
+        radioButton_15 = new QRadioButton(frame_72);
+        radioButton_15->setObjectName(QStringLiteral("radioButton_15"));
+        radioButton_15->setGeometry(QRect(10, 116, 191, 40));
+        radioButton_15->setFont(font4);
+        radioButton_15->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
         stackedWidget_11->addWidget(page_48);
         stackedWidget->addWidget(page_39);
         page_21 = new QWidget();
@@ -5026,20 +5057,20 @@ public:
 
         retranslateUi(MainWindow);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(10);
         stackedWidget_8->setCurrentIndex(1);
-        tabWidget->setCurrentIndex(0);
-        stackedWidget_9->setCurrentIndex(0);
-        stackedWidget_5->setCurrentIndex(0);
+        tabWidget->setCurrentIndex(1);
+        stackedWidget_9->setCurrentIndex(1);
+        stackedWidget_5->setCurrentIndex(1);
         stackedWidget_2->setCurrentIndex(1);
-        tabWidget_2->setCurrentIndex(3);
-        stackedWidget_3->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(1);
+        stackedWidget_3->setCurrentIndex(3);
         stackedWidget_4->setCurrentIndex(1);
         stackedWidget_7->setCurrentIndex(1);
         stackedWidget_6->setCurrentIndex(1);
-        tabWidget_3->setCurrentIndex(1);
+        tabWidget_3->setCurrentIndex(5);
         stackedWidget_10->setCurrentIndex(0);
-        stackedWidget_12->setCurrentIndex(2);
+        stackedWidget_12->setCurrentIndex(1);
         stackedWidget_11->setCurrentIndex(1);
 
 
@@ -5579,6 +5610,10 @@ public:
         toolButton_48->setText(QApplication::translate("MainWindow", "Print", nullptr));
         pushButton_139->setText(QString());
         toolButton_54->setText(QApplication::translate("MainWindow", "Delete", nullptr));
+        radioButton_13->setText(QApplication::translate("MainWindow", "Patient ID", nullptr));
+        radioButton_14->setText(QApplication::translate("MainWindow", "Parameter Name", nullptr));
+        label_208->setText(QApplication::translate("MainWindow", "Filter By", nullptr));
+        radioButton_15->setText(QApplication::translate("MainWindow", "Date", nullptr));
         label_128->setText(QApplication::translate("MainWindow", "TSH", nullptr));
         label_131->setText(QApplication::translate("MainWindow", " Result", nullptr));
         toolButton_14->setText(QApplication::translate("MainWindow", "Read", nullptr));
