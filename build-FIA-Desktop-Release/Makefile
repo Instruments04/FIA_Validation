@@ -443,10 +443,14 @@ qrc_icons.cpp: ../FIA_Validation/FIA/icons.qrc \
 		../FIA_Validation/FIA/time.png \
 		../FIA_Validation/FIA/bar-chart.png \
 		../FIA_Validation/FIA/power-on.png \
+		../FIA_Validation/FIA/next_1.png \
 		../FIA_Validation/FIA/data.png \
+		../FIA_Validation/FIA/next_2.png \
 		../FIA_Validation/FIA/eye.png \
 		../FIA_Validation/FIA/off-button.png \
+		../FIA_Validation/FIA/back1.png \
 		../FIA_Validation/FIA/wifi.png \
+		../FIA_Validation/FIA/next.png \
 		../FIA_Validation/FIA/back.png \
 		../FIA_Validation/FIA/right-arrow.png
 	/usr/lib/qt5/bin/rcc -name icons ../FIA_Validation/FIA/icons.qrc -o qrc_icons.cpp
