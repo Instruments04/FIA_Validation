@@ -134,7 +134,7 @@ public:
     QPushButton *pushButton_113;
     QPushButton *pushButton_107;
     QPushButton *pushButton_99;
-    QLineEdit *lineEdit;
+    QLineEdit *lineEdit_key;
     QPushButton *pushButton;
 
     void setupUi(QDialog *keyboard)
@@ -894,12 +894,13 @@ public:
 "border:3px solid gray;\n"
 "color:white;"));
         stackedWidget_8->addWidget(page_15);
-        lineEdit = new QLineEdit(keyboard);
-        lineEdit->setObjectName(QStringLiteral("lineEdit"));
-        lineEdit->setGeometry(QRect(290, 120, 219, 51));
-        lineEdit->setFont(font);
-        lineEdit->setStyleSheet(QStringLiteral("background-color: rgb(255, 255, 255);"));
-        lineEdit->setClearButtonEnabled(false);
+        lineEdit_key = new QLineEdit(keyboard);
+        lineEdit_key->setObjectName(QStringLiteral("lineEdit_key"));
+        lineEdit_key->setGeometry(QRect(290, 120, 219, 51));
+        lineEdit_key->setFont(font);
+        lineEdit_key->setStyleSheet(QStringLiteral(""));
+        lineEdit_key->setEchoMode(QLineEdit::Normal);
+        lineEdit_key->setClearButtonEnabled(false);
         pushButton = new QPushButton(keyboard);
         pushButton->setObjectName(QStringLiteral("pushButton"));
         pushButton->setGeometry(QRect(510, 120, 61, 51));
@@ -1025,7 +1026,7 @@ public:
         pushButton_113->setText(QApplication::translate("keyboard", ",", nullptr));
         pushButton_107->setText(QApplication::translate("keyboard", "3", nullptr));
         pushButton_99->setText(QApplication::translate("keyboard", "2", nullptr));
-        lineEdit->setText(QString());
+        lineEdit_key->setText(QString());
         pushButton->setText(QString());
     } // retranslateUi
 

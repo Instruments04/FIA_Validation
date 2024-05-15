@@ -145,7 +145,6 @@ DIST          = /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_pre.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
-		../FIA_Validation/FIA/.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -260,7 +259,6 @@ Makefile: ../FIA_Validation/FIA/FIA.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf \
-		.qmake.stash \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf \
 		/usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf \
@@ -347,7 +345,6 @@ Makefile: ../FIA_Validation/FIA/FIA.pro /usr/lib/arm-linux-gnueabihf/qt5/mkspecs
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/qt_config.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/linux-g++/qmake.conf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/spec_post.prf:
-.qmake.stash:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/exclusive_builds.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/toolchain.prf:
 /usr/lib/arm-linux-gnueabihf/qt5/mkspecs/features/default_pre.prf:
@@ -465,6 +462,7 @@ compiler_moc_header_make_all: moc_mainwindow.cpp moc_keyboard.cpp moc_qcustomplo
 compiler_moc_header_clean:
 	-$(DEL_FILE) moc_mainwindow.cpp moc_keyboard.cpp moc_qcustomplot.cpp moc_printer.cpp
 moc_mainwindow.cpp: ../FIA_Validation/FIA/keyboard.h \
+		ui_keyboard.h \
 		../FIA_Validation/FIA/printer.h \
 		../FIA_Validation/FIA/qcustomplot.h \
 		../FIA_Validation/FIA/mainwindow.h \
@@ -515,12 +513,14 @@ compiler_clean: compiler_rcc_clean compiler_moc_predefs_clean compiler_moc_heade
 
 main.o: ../FIA_Validation/FIA/main.cpp ../FIA_Validation/FIA/mainwindow.h \
 		../FIA_Validation/FIA/keyboard.h \
+		ui_keyboard.h \
 		../FIA_Validation/FIA/printer.h \
 		../FIA_Validation/FIA/qcustomplot.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o main.o ../FIA_Validation/FIA/main.cpp
 
 mainwindow.o: ../FIA_Validation/FIA/mainwindow.cpp ../FIA_Validation/FIA/mainwindow.h \
 		../FIA_Validation/FIA/keyboard.h \
+		ui_keyboard.h \
 		../FIA_Validation/FIA/printer.h \
 		../FIA_Validation/FIA/qcustomplot.h \
 		ui_mainwindow.h \
@@ -536,7 +536,11 @@ mainwindow.o: ../FIA_Validation/FIA/mainwindow.cpp ../FIA_Validation/FIA/mainwin
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o mainwindow.o ../FIA_Validation/FIA/mainwindow.cpp
 
 keyboard.o: ../FIA_Validation/FIA/keyboard.cpp ../FIA_Validation/FIA/keyboard.h \
-		ui_keyboard.h
+		../FIA_Validation/FIA/mainwindow.h \
+		ui_keyboard.h \
+		../FIA_Validation/FIA/printer.h \
+		../FIA_Validation/FIA/qcustomplot.h \
+		ui_mainwindow.h
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o keyboard.o ../FIA_Validation/FIA/keyboard.cpp
 
 qcustomplot.o: ../FIA_Validation/FIA/qcustomplot.cpp ../FIA_Validation/FIA/qcustomplot.h
@@ -544,6 +548,7 @@ qcustomplot.o: ../FIA_Validation/FIA/qcustomplot.cpp ../FIA_Validation/FIA/qcust
 
 wifi-setup.o: ../FIA_Validation/FIA/wifi-setup.cpp ../FIA_Validation/FIA/mainwindow.h \
 		../FIA_Validation/FIA/keyboard.h \
+		ui_keyboard.h \
 		../FIA_Validation/FIA/printer.h \
 		../FIA_Validation/FIA/qcustomplot.h \
 		ui_mainwindow.h
