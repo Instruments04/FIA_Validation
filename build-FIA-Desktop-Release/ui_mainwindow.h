@@ -2777,7 +2777,7 @@ public:
         label_343->setObjectName(QStringLiteral("label_343"));
         label_343->setGeometry(QRect(110, 180, 471, 21));
         label_343->setFont(font2);
-        label_343->setStyleSheet(QStringLiteral(""));
+        label_343->setStyleSheet(QStringLiteral("color:rgb(0, 170, 0);"));
         toolButton_29 = new QToolButton(page_43);
         toolButton_29->setObjectName(QStringLiteral("toolButton_29"));
         toolButton_29->setGeometry(QRect(360, 90, 101, 51));
@@ -7440,11 +7440,11 @@ public:
 
         stackedWidget->setCurrentIndex(4);
         stackedWidget_5->setCurrentIndex(0);
-        stackedWidget_2->setCurrentIndex(1);
+        stackedWidget_2->setCurrentIndex(4);
         tabWidget_2->setCurrentIndex(3);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(2);
-        stackedWidget_7->setCurrentIndex(0);
+        stackedWidget_7->setCurrentIndex(1);
         stackedWidget_6->setCurrentIndex(0);
         tabWidget_3->setCurrentIndex(1);
         stackedWidget_10->setCurrentIndex(1);
