@@ -7441,12 +7441,12 @@ public:
         stackedWidget->setCurrentIndex(4);
         stackedWidget_5->setCurrentIndex(0);
         stackedWidget_2->setCurrentIndex(1);
-        tabWidget_2->setCurrentIndex(0);
+        tabWidget_2->setCurrentIndex(3);
         stackedWidget_3->setCurrentIndex(0);
         stackedWidget_4->setCurrentIndex(2);
-        stackedWidget_7->setCurrentIndex(1);
+        stackedWidget_7->setCurrentIndex(0);
         stackedWidget_6->setCurrentIndex(0);
-        tabWidget_3->setCurrentIndex(2);
+        tabWidget_3->setCurrentIndex(1);
         stackedWidget_10->setCurrentIndex(1);
         stackedWidget_12->setCurrentIndex(0);
         stackedWidget_11->setCurrentIndex(1);
